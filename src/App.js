@@ -6,6 +6,7 @@ import Cart from './pages/Cart';
 import IndDetails from './IndDetails';
 
 import Conditional from './Conditional';
+import Home from './pages/Home';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Routes>
       <Route path='/inddetail' element={<IndDetails/>}/>
       <Route path='/condition' element={<Conditional/>}/>
+      <Route path='/' element={<Home/>}/>
 
 
         <Route path='/allproducts' element={<Allproducts cart={cart} setcart={setcart} />} />
